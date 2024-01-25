@@ -57,6 +57,7 @@ RUN apt-get update && \
         xserver-xorg \
         xserver-xorg-legacy \
         xvfb \
+        xserver-xorg-video-all \
         xwayland && \
     /apt_cleanup
 
